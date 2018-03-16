@@ -1,0 +1,91 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    padding-left: 2rem;
+    text-align: left;
+    margin-bottom: 0 0  1rem 0;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{color: #fb7d29;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    color: #d4482f;
+}
+
+#view-container{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top:0;
+    border-radius: 1rem;
+    width: 400px;
+    height: 80vh;
+    text-align: center;
+    padding: 1rem;
+    -webkit-box-shadow:6px 6px 9px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow:6px 6px 9px 0px rgba(0,0,0,0.45);
+    box-shadow: 6px 6px 9px 0px rgba(0,0,0,0.45);
+
+}
+.view-bar{
+    bottom: 20px;
+    position: absolute;
+    width:400px;
+}
+.btn_title{
+    float: right;
+    line-height: 56px;
+    padding-right: 20px;
+}
+
+html.listController #view-container{
+
+}
+.view_header{
+    overflow: auto;
+}
+.view_header h1{
+    float: left;
+}
+
+.list_wrapper{
+    height: 55vh;
+    overflow: hidden;
+}
+#view-container li{
+    background-color: #fff4ea;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: left;
+    overflow: auto;
+
+    -webkit-box-shadow: inset 1px 1px 1px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow:inset 1px 1px 1px 0px rgba(0,0,0,0.45);
+    box-shadow: inset 1px 1px 1px 0px rgba(0,0,0,0.45);
+}
+.contact-data{
+    float: left;
+    padding-top: 6px;
+    max-width: 75%;
+}
+.contact-mail{
+    float: right;
+}
+.btn-edit{
+    font-size: 1.75em;
+    margin-right: 10px;
+}
+.scroll-bar {
+    display: none;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "sap",
+  "version": "1.0.1",
+  "description": "Agenda Personal",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smartcodd/sap-fe.git"
+  },
+  "keywords": [
+    "Agenda"
+  ],
+  "author": "Freddy Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smartcodd/sap-fe/issues"
+  },
+  "homepage": "https://github.com/smartcodd/sap-fe#readme",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-animate": "^1.6.9",
+    "angular-route": "^1.6.9",
+    "country-list": "^1.1.0",
+    "lodash": "^4.17.5"
+  }
+}

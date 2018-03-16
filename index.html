@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Addres Book</title>
+        <meta charset="UTF-8"/>
+        <meta  name="viewport" content="width=device-width,initial-scale=1.0" />
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet"  href="css/style.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script> 
+        <script src="node_modules/angular/angular.min.js" ></script>
+        <script src="node_modules/angular-route/angular-route.min.js" ></script>
+        <script src="node_modules/angular-animate/angular-animate.min.js" ></script>
+
+        <script src="node_modules/lodash/lodash.min.js" ></script>
+        <script src="node_modules/country-list/bundle.js"></script>
+        <script src="js/models.js"></script>
+        <script src="js/main.js"></script>
+        
+    </head>
+    <body ng-app="adressApp" ng-controller="mainApp">
+        <div ng-view id="view-container" ></div>
+
+    </body>
+</html>
